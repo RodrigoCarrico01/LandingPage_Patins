@@ -25,7 +25,9 @@
 html, button{
   font: 500 var(--text-base)/1.5 var(--ff-base);
 }
-
+html{
+  zoom: .5;
+}
 h1, h2{
   font-family: 'Syne', sans-serif;
   font-weight: 700;

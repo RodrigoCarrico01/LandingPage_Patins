@@ -45,3 +45,11 @@ a{
   color: inherit;
   text-decoration: none;
 }
+
+@media(width <= 60em){
+  :root{
+    --text-sm: .75rem;
+    --text-lg: 1.5rem;
+    --text-xl: 2rem;
+  }
+}

@@ -109,3 +109,17 @@ section.gallery{
     transform: translateY(100%);
   }
 }
+
+@media(width <= 70em){
+  section.gallery{
+    & .content{
+      grid-template-areas: 
+      "A"
+      "B"
+      "C"
+      "D";
+  
+      gap: 2.5rem;
+    }
+  }
+}
